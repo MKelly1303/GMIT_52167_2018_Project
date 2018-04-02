@@ -15,5 +15,3 @@ might do that for this project as follows:
 mean of each column of the data set. A Python script will quickly do this for you.
 5. Write a summary of your investigations.
 6. Include supporting tables and graphics as you deem necessary.
-
-
