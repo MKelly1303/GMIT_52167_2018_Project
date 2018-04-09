@@ -19,3 +19,5 @@ print(data)
 #plt.plot(data[1])
 #plt.plot(y, 'r+', markersize=20)
 #plt.show()
+
+# Testing the import functions
