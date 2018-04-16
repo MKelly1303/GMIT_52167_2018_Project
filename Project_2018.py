@@ -6,20 +6,34 @@ import matplotlib as mpl
 import numpy as np
 import pandas as pd
 
-#with open("data/iris.csv") as f:
-#  for line in f:
-  #  str0 = (line.split (',')[0])
- #   str1 = (line.split (',')[1])
-  #  str2 = (line.split (',')[2])
-   # str3 = (line.split (',')[3])
-   # print('{0:>3} {1:>3} {2:>3} {3:>3}'.format(str0, str1, str2, str3))
 
-#data = np.genfromtxt("data/iris.csv", delimiter=",")
-data = pd.read_csv("data/iris.csv")
+data = pd.read_csv("data/iris.csv", names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class'])
 
-print(data)
-#plt.plot(data[1])
-#plt.plot(y, 'r+', markersize=20)
-#plt.show()
+sl = data['sepal_length']
+sw = data['sepal_width']
+pl = data['petal_length']
+pw = data['petal_width']
+cl = data['class']
 
-# Testing the import functions
+#print(data)
+print('Mean Sepal Length = ', '{:01.2f}'.format(np.mean(sl)))
+print('Max Sepal Length = ', '{:01.2f}'.format(np.max(sl)))
+print('Min Sepal Length = ', '{:01.2f}'.format(np.min(sl)))
+
+plt.figure(1)
+plt.title('Sepal Length Histogram')
+plt.xlabel('mm')
+#plt.subplot(211)
+plt.hist(sl)
+
+#plt.subplot(212)
+#plt.hist(sw)
+
+#plt.subplot(213)
+#plt.hist(pl)
+
+#plt.subplot(214)
+#plt.hist(pw)
+
+plt.show()
+
