@@ -17,4 +17,4 @@ mean of each column of the data set. A Python script will quickly do this for yo
 6. Include supporting tables and graphics as you deem necessary.
 
 
-![alt text](https://raw.githubusercontent.com/MKelly1303/GMIT_52167_2018_Project/Fig1.JPG)
+![alt text](https://githubusercontent.com/MKelly1303/GMIT_52167_2018_Project/Fig1.JPG)
