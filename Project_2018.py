@@ -16,12 +16,11 @@ pl = data['petal_length']
 pw = data['petal_width']
 cl = data['class']
 
-print('       Sepal Length   Sepal Width      Petal Length     Petal Width')
+print('        Sepal Length   Sepal Width      Petal Length       Petal Width')
 
-print('Mean  = ', '{:01.2f}'.format(np.mean(sl)),'          ', '{:01.2f}'.format(np.mean(sw)), '            ', '{:01.2f}'.format(np.mean(pl)),'            ', '{:01.2f}'.format(np.mean(pw)))
-print('Min   = ', '{:01.2f}'.format(np.min(sl)),'          ', '{:01.2f}'.format(np.min(sw)), '            ', '{:01.2f}'.format(np.min(pl)),'            ', '{:01.2f}'.format(np.min(pw)))
-print('Max   = ', '{:01.2f}'.format(np.max(sl)),'          ', '{:01.2f}'.format(np.max(sw)), '            ', '{:01.2f}'.format(np.max(pl)),'            ', '{:01.2f}'.format(np.max(pw)))
-	
+print('Mean  =   ', '{:01.2f}'.format(np.mean(sl)),'          ', '{:01.2f}'.format(np.mean(sw)), '            ', '{:01.2f}'.format(np.mean(pl)),'            ', '{:01.2f}'.format(np.mean(pw)))
+print('Min   =   ', '{:01.2f}'.format(np.min(sl)),'          ', '{:01.2f}'.format(np.min(sw)), '            ', '{:01.2f}'.format(np.min(pl)),'            ', '{:01.2f}'.format(np.min(pw)))
+print('Max   =   ', '{:01.2f}'.format(np.max(sl)),'          ', '{:01.2f}'.format(np.max(sw)), '            ', '{:01.2f}'.format(np.max(pl)),'            ', '{:01.2f}'.format(np.max(pw)))
 
 	
 data['class']=data['class'].astype("category")
