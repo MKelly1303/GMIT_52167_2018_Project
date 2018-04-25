@@ -42,7 +42,7 @@ groups=data[['class','sepal_length','sepal_width', 'petal_length', 'petal_width'
 
 #Creating a group that is differeniated on the different values of 'class'
 
-fig, ((ax1, ax2, ax3, ax4), (ax5, ax6, ax7, ax8),(ax9, ax10, ax11, ax12),(ax13, ax14, ax15, ax16)) = plt.subplots(4, 4, sharex='col', sharey='row')
+fig, ((ax1, ax2, ax3, ax4), (ax5, ax6, ax7, ax8),(ax9, ax10, ax11, ax12),(ax13, ax14, ax15, ax16)) = plt.subplots(4, 4, sharex='none', sharey='none')
 # Creating a 4 x 4 subplot matix with plots names ax1 to ax16 where each row and column will share the axis'.
  
 #https://stackoverflow.com/questions/42592493/displaying-pair-plot-in-pandas-data-frame/45195783 Trying to recreate the images seen on this page.
