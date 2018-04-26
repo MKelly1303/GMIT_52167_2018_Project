@@ -29,12 +29,11 @@ are 50 samples of each flower totalling 150 entries in the entire data set.
 [https://en.wikipedia.org/wiki/Iris_flower_data_set]
 
 
-
-![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig1.JPG)
-
+The first table gives us the Mean, Min, Max and Sum of all fields in the data set.
 
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig2.JPG)
 
+The second table is an export of the mean values of all data fields for each class or flower type.
 
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig3.JPG)
 
@@ -45,3 +44,6 @@ are 50 samples of each flower totalling 150 entries in the entire data set.
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig5.JPG)
 
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig6.JPG)
+
+
+![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig1.JPG)
