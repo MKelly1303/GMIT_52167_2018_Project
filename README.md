@@ -30,3 +30,5 @@ mean of each column of the data set. A Python script will quickly do this for yo
 
 
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig5.JPG)
+
+![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig6.JPG)
