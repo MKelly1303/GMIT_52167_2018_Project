@@ -41,21 +41,25 @@ The interesting thing about this table is that the sepal length is is on average
 the datasets while the petal width is the smallest. Petal length has the largest variations within 
 it's data while the sepal width has the smallest.
 
-Using the panda's pivet table functionality, the Mean, Min and Max values for each of the three flower
-types was generated. These are seen in figures 2, 3 and 4.
+Using the panda's pivet table functionality, the Mean, Min, Max and Sum values for each of the three 
+flower types was generated. These are seen in figures 2, 3 and 4.
 
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig3.JPG)
+
 Fig 2
 
 
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig4.JPG)
+
 Fig 3
 
 
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig5.JPG)
+
 Fig 4
 
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig6.JPG)
+
 Fig 5
 
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig1.JPG)
