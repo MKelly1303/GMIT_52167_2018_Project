@@ -34,6 +34,7 @@ sepal length, petal width and petal length.
 Figure 1 table gives us the Mean, Min, Max and Sum of all fields in the data set.   
 
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig2.JPG)
+
 Fig 1
 The interesting thing about this table is that the sepal length is is on average the largest of 
 the datasets while the petal width is the smallest. Petal length has the largest variations while 
