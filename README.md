@@ -17,7 +17,7 @@ mean of each column of the data set. A Python script will quickly do this for yo
 6. Include supporting tables and graphics as you deem necessary.
 -----------------------------------------------------------------------------------------------------------------------------
 
-Fisher's Iris Data Set
+Fisher's Iris Data Set - Mark Kelly - 2018 - GMIT - Programming and Scripting 52167
 
 In a 1936 paper titled 'The use of multiple measurements in taxonomic problems' biologist and 
 statistician Ronald Fisher introduced the Iris flower data set. This is an example of a 
@@ -28,7 +28,7 @@ This data set composes of three variants of iris flowers (setosa, veriscolor and
 are 50 samples of each flower totalling 150 entries in the entire data set. There are four data 
 entries in this set that gives us the measurements of the flowers in centimetres of sepal width, 
 sepal length, petal width and petal length.
-[https://en.wikipedia.org/wiki/Iris_flower_data_set]
+[High level information taken from https://en.wikipedia.org/wiki/Iris_flower_data_set]
 
 
 Figure 1 table gives us the Mean, Min, Max and Sum of all fields in the data set.   
