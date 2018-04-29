@@ -69,7 +69,7 @@ for name, group in groups:
 
     ax9.scatter(group.sepal_length,group.petal_length,label=name)
     ax10.scatter(group.sepal_width,group.petal_length,label=name)
-    ax11.hist(group.sepal_width,label=name)
+    ax11.hist(group.petal_length,label=name)
     ax12.scatter(group.petal_width,group.petal_length,label=name)
 
     ax13.scatter(group.sepal_length,group.petal_width,label=name)
