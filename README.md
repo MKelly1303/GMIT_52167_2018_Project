@@ -72,4 +72,18 @@ Fig 6
 
 The pivot tables and the plots through up some interesting observations. The most obvious point is that 
 the flower type setosa is very different from the other two. Setosa has a smaller petal width and petal 
-length. Veriscolor and Viginica are closer in petal size with 
+length. It has the smallest variation of any of the attributes for all classes and makes it clearly 
+identifiable just from the petal size. Versicolor and Viginica are closer in petal size with Virginica 
+on average being larger for both length and width. It is also noticed that petal length has the largest 
+variation of all the attributes.
+
+Sepal sizes are much closer between the 3 classes. This makes it harder to clearly define each class 
+based on sepal sizes but its still possible to identify some trends. Setosa, in general, has largest 
+sepal width with one outlier that has a width of approx 2.4cm. Setosa however also has the smallest sepal 
+length. Virginica has the largest variation in sepal length while versicolor has in general the smallest 
+sepal width.
+
+In general, the Fisher Iris dataset is an excellent dataset to start in data analytics. The dataset size is
+very manageable with only 150 entries and only 5 data columns. The variations in the attributes can lead to 
+some interesting observations and insights and is very useful in cluster analysis and generating scatter plots.
+
