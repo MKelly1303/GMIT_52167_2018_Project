@@ -44,7 +44,7 @@ print(pd.pivot_table(data, index=['class'], aggfunc='max'))
 print(" ")
 print("Sum Values for each class...")
 print(pd.pivot_table(data, index=['class'], aggfunc='sum'))
-	
+# Generating and printing a pivot table based on the data column class that will get the Mean, Min, Max and Sum for each class	
 
 groups=data[['class','sepal_length','sepal_width', 'petal_length', 'petal_width']].groupby('class')
 #Creating a group that is differeniated and grouped on the different values of 'class'
@@ -52,7 +52,8 @@ groups=data[['class','sepal_length','sepal_width', 'petal_length', 'petal_width'
 fig, ((ax1, ax2, ax3, ax4), (ax5, ax6, ax7, ax8),(ax9, ax10, ax11, ax12),(ax13, ax14, ax15, ax16)) = plt.subplots(4, 4, sharex='none', sharey='none')
 # Creating a 4 x 4 subplot matix with plots names ax1 to ax16 where each row and column will not share the axis'.      
  
-#https://stackoverflow.com/questions/42592493/displaying-pair-plot-in-pandas-data-frame/45195783 Trying to recreate the images seen on this page as I felt it shows a good visual representation of the differences between the classes.
+#https://stackoverflow.com/questions/42592493/displaying-pair-plot-in-pandas-data-frame/45195783 Trying to recreate the images 
+#seen on this page as I felt it shows a good visual representation of the differences between the classes.
 
 
 for name, group in groups: 
@@ -75,7 +76,8 @@ for name, group in groups:
     ax14.scatter(group.sepal_width,group.petal_width,label=name)
     ax15.scatter(group.petal_length,group.petal_width,label=name)
     ax16.hist(group.petal_width,label=name)
-# Using a for loop to generate each plot where they will be grouped by the value in class. For each data column, there will be be a histogram generated along with a scatterplot against all other data type. They will be coloured differently depending on the value of class. As there are 3 flower types in our class column, there will be 3 colours each depicting the different flower types.
+# Using a for loop to generate each plot where they will be grouped by the value in class. For each data column, 
+# there will be be a histogram generated along with a scatterplot against all other data type. They will be coloured differently depending on the value of class. As there are 3 flower types in our class column, there will be 3 colours each depicting the different flower types.
 
 ax1.legend()
 ax1.set_ylabel('Sepal Length(cm)')
@@ -89,7 +91,8 @@ ax16.set_xlabel('Petal Width(cm)')
 ax6.legend()
 ax11.legend()
 ax16.legend()
-# Setting the legend to appear on each histogram. Labels will only be generated once for each row and column on the left of the charts and at the bottom.
+# Setting the legend to appear on each histogram. Labels will only be generated once for each row and column 
+# on the left of the charts and at the bottom.
 
 plt.show()
 # Plot the chart
