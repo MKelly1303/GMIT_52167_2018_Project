@@ -26,7 +26,7 @@ used in testing machine learning algorithm and visualisation.
 
 This data set composes of three variants of iris flowers (setosa, veriscolor and virginica). There 
 are 50 samples of each flower totalling 150 entries in the entire data set. There are four data 
-entries in this set that gives us the measurments of the flwoers in centimetres of sepal width, 
+entries in this set that gives us the measurements of the flowers in centimetres of sepal width, 
 sepal length, petal width and petal length.
 [https://en.wikipedia.org/wiki/Iris_flower_data_set]
 
@@ -37,12 +37,12 @@ Figure 1 table gives us the Mean, Min, Max and Sum of all fields in the data set
 
 Fig 1
 
-The interesting thing about this table is that the sepal length is is on average the largest of 
+The interesting thing about this table is that the sepal length is on average the largest of 
 the datasets while the petal width is the smallest. Petal length has the largest variations within 
 it's data while the sepal width has the smallest.
 
-Using the panda's pivet table functionality, the Mean, Min, Max and Sum values for each of the three 
-flower types was generated. These are seen in figures 2, 3, 4 and 5.
+Using the panda's pivot table functionality, the Mean, Min, Max and Sum values for each of the three 
+flower types were generated. These are seen in figures 2, 3, 4 and 5.
 
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig3.JPG)
 
@@ -62,5 +62,14 @@ Fig 4
 
 Fig 5
 
+A histogram has been generated for each attribute giving a different colour for each flower type. 
+Scatter plots have also been created comparing the 4 different attributes against each other.
+Again, each flower type has its own colour. These charts are generated into a single plot and is 
+seen in figure 6.
+
 ![alt text](https://github.com/MKelly1303/GMIT_52167_2018_Project/blob/master/Fig1.JPG)
 Fig 6
+
+The pivot tables and the plots through up some interesting observations. The most obvious point is that 
+the flower type setosa is very different from the other two. Setosa has a smaller petal width and petal 
+length. Veriscolor and Viginica are closer in petal size with 
